@@ -1,4 +1,4 @@
-# @/dbpatty/polkatree
+# @dbpatty/polkatree
 
 List of polkadot projects and their state
  This project is created to help people to follow all polkadot parachains state.
