@@ -1,0 +1,343 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>POLKATREE </title>
+        <meta name="keywords" content="Polkadot, parachain, validator, kusama, kulupu, acala, chainx">
+        <meta name="description" content="POLKATREE: polkadot projects state monitor ">
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/vendor.css">
+        <!-- Theme initialization -->
+        <link rel="stylesheet" id="theme-style" href="css/polkatree.css">
+        <link rel="stylesheet" href="datatables.bootstrap4.min.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="js/jquery.datatables.min.js"></script>
+        <script src="js/polkatree.js"></script>
+        <script>
+        $(document).ready(function () {
+            $('#dataTable').DataTable();
+        });
+    </script>
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <div class="app" id="app">
+                <header class="header header-fixed">
+                
+                        <div class="brand">
+                              <div >
+                                 <img src='img/polkatree.png' style="height: 120px">
+                                    <span class="l l1 rosachiaro"> <strong>POLKATREE:</strong></span>
+                                    <span class="l l2 rosachiaro">Polkadot projects monitor</span>
+                                    <span class="l l3"></span>
+                                    <span class="l l4"></span>
+                                    <span class="l l5"></span>
+                                </div>    
+                            
+
+                            
+                        </div>
+                  
+                   
+                </header>
+               
+                <article class="content responsive-tables-page">
+                    <div class="title-block ">
+                          WELCOME
+                        
+                    </div>
+                    
+                    <section class="section">
+                         <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                        This site was created to help people, for example validators, who want to quickly follow the status and evolution of the <b>Polkadot</b> world
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Projects List </h3>
+                                        </div>
+                                        <section class="">
+                                            <div class="table-flip-scroll">
+                                                <div class="form-group pull-right">
+                                            <input type="text" class="search form-control" placeholder="What you looking for?">
+                                            </div>
+                                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                    <thead class="flip-header rosascuro">
+                                                        <tr >
+                                                            <th>Project name</th>
+                                                            <th>State</th>
+                                                            <th>Version</th>
+                                                            <th>Explorer</th>
+                                                            <th>How partecipate</th>
+                                                            <th>Exchange</th>
+                                                           
+                                                        </tr>
+                                                    </thead>
+                                                     <tfoot class="flip-header rosascuro">
+                                                        <tr >
+                                                            <th>Project name</th>
+                                                            <th>State</th>
+                                                            <th>Version</th>
+                                                            <th>Explorer</th>
+                                                            <th>How partecipate</th>
+                                                            <th>Exchange</th>
+                                                           
+                                                        </tr>
+                                                    </tfoot>
+                                                    <tbody>
+                                                        <tr class="odd gradeX">
+                                                           <td> 
+                                                                <img src="logo/polkadot.png" alt="Polkadot" title="Polkadot" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet Westend</td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                                <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr class="even gradeC">
+                                                            <td> 
+                                                                <img src="logo/kusama.png" alt="Kusama" title="Kusama" style="height:50px;">
+                                                            </td>
+                                                           <td>Mainnet</td>
+                                                            <td>v.0.7.30</td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                       <tr class="odd gradeX">
+                                                            <td> 
+                                                                <img src="logo/chainx.jpg" alt="Chainx" title="Chainx" style="height:50px;">
+                                                            </td>
+                                                            <td>Mainnet</td>
+                                                            <td>v.1.1.0</td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                          <tr class="odd gradeC">
+                                                            <td> 
+                                                                <img src="logo/edgeware.jpg" alt="edgeware" title="Edgeware"style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                          <tr class="odd gradeX">
+                                                            <td> 
+                                                                <img src="logo/plasm.jpg" alt="Plasm" title="Plasm" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                          <tr class="odd gradeC">
+                                                            <td> 
+                                                                <img src="logo/akalaNetwork.jpg" alt="Acala Network"  title="Acala Network" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                          <tr class="odd gradeX">
+                                                            <td> 
+                                                                <img src="logo/polymesh.jpg" alt="Polymesh" title="Polymesh" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                           <tr class="odd gradeC">
+                                                            <td> 
+                                                                <img src="logo/darwinia.jpg" alt="Darwinia" title="Darwinia" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+
+                                                         <tr class="odd gradeX">
+                                                            <td> 
+                                                                <img src="logo/laminar.jpg" alt="Laminar" title="Laminar" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                           <tr class="odd gradeC">
+                                                            <td> 
+                                                                <img src="logo/bifrostNertwork.jpg" alt="Bifrost Network" title="Bifrost Network" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                           <tr class="odd gradeX">
+                                                            <td> 
+                                                                <img src="logo/shift.jpg" alt="Shift" title="Shift" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                           <tr class="odd gradeC">
+                                                            <td> 
+                                                                <img src="logo/chainLink.jpg" alt="ChainLink" title="ChainLink" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                         <tr class="odd gradeX">
+                                                            <td> 
+                                                                <img src="logo/phalaNetwork.jpg" alt="Phala Network" title="Phala Network" style="height:50px;">
+                                                            </td>
+                                                            <td>Testnet </td>
+                                                            <td></td>
+                                                            <td class="center">
+                                                               <ul>
+                                                                    <li><a src="" alt="Explorer" target="link">Explorer</a></li>
+                                                                    <li><a src="" alt="Exchange" target="link">Telemetry</a></li>
+                                                                    <li><a src="" alt="Site" target="link">Site</a></li>
+                                                                </ul>
+                                                            </td> 
+                                                            <td></td>
+                                                            <td></td>
+                                                         </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </section>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+                <footer class="footer">
+                   
+                    <div class="footer-block author">
+                        <ul>
+                            <li> created by <a href="https://anamix.top/" target="anamix">Anamix</a>
+                            </li>
+                             <li> GitHub project <a href="https://github.com/dbpatty/polkatree" target="GitHub" >Polkatree</a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+                
+               
+            </div>
+        </div>
+       
+        <script src="js/vendor.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
