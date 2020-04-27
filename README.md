@@ -1,9 +1,8 @@
  
 <img src="https://github.com/dbpatty/polkatree/blob/master/polkatree/img/polkatree1.png" height="150px" /> 
-# @dbpatty/polkatree
+<h1 align="center">Welcome to POLKATREE project</h1>
 
-List of polkadot projects and their state
-This project is created to help people to follow all polkadot parachains state.
+This site was created to help people, for example validators, who want to quickly follow the status and evolution of the Polkadot world.
  
 If you are interested to add a project or to modify existing feel free to create a pull request.
  
