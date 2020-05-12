@@ -1,8 +1,10 @@
  <h1 align="right">Welcome to POLKATREE project by ANAMIX</h1>
 <img src="https://github.com/dbpatty/polkatree/blob/master/polkatree/img/polkatree1.png" height="150px" /> 
-<p align="right">This site was created to help people, for example validators, who want to quickly follow the status and evolution of the Polkadot world.
+<p align="left">This site was created to help people,mainly validators, who want to quickly follow the status and the evolution of the Polkadot chains and parachains.
+ In the next steps we'll add a Telegram bot to advise about new update and CoinGeko API connection too.
  
-If you are interested to add a project or to modify existing feel free to create a pull request.</p>
+If you are interested to add a project or to modify existing feel free to create a pull request or leave a feedback here.
+</p>
  
  
  
