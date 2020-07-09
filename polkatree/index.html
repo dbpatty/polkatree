@@ -17,7 +17,7 @@
     <link href="css/datatables.bootstrap4.min.css" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
         <script type="text/javascript">
-            var coins = "polkadot,kusama,edgeware";
+            var coins = "polkadot,kusama,edgeware,chainx";
             var percorso = 'https://api.coingecko.com/api/v3/simple/price?ids='+coins+'&vs_currencies=eur%2Cbtc';
             $.ajax({
               type: 'GET',
@@ -298,6 +298,23 @@ If you are interested in adding a project or modifying an existing project, feel
 								<td></td>
 								<td>
 								<div id="bifrost"></div>
+								</td>
+							</tr>
+							<tr class="odd gradeX">
+								<td><img alt="ChainX" src="logo/chainx.jpg" style="height:50px;" title="ChainX" /><span>ChainX</span></td>
+								<td>Mainnet</td>
+								<td>v1.1.0</td>
+								<td class="center">
+								<ul>
+									<li><a alt="GitHub" href="https://github.com/chainx-org/ChainX" target="link">GitHub</a></li>
+									<li><a alt="Explorer" href="https://scan.chainx.org/" target="link">Explorer</a></li>
+									<li><a alt="Telemetry" href="https://stats.chainx.org/" target="link">Telemetry</a></li>
+									<li><a alt="Site" href="https://chainx.org/" target="link">Site</a></li>
+								</ul>
+								</td>
+								<td></td>
+								<td>
+								<div id="chainx"></div>
 								</td>
 							</tr>
                                                     </tbody>
